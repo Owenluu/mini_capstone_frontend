@@ -17,8 +17,9 @@
 </template>
 
 <style>
-img {
-  width: 250px;
+.card-img-top {
+  object-fit: cover;
+  height: 350px;
 }
 </style>
 
