@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 axios.defaults.baseURL =
-  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "powerful-brook-77553.herokuapp.com";
+  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://powerful-brook-77553.herokuapp.com";
 
 var jwt = localStorage.getItem("jwt");
 if (jwt) {
